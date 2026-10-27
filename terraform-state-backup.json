@@ -1,0 +1,37 @@
+{
+  "version": 4,
+  "terraform_version": "1.14.9",
+  "serial": 190,
+  "lineage": "f71a1762-250f-4d33-c7ef-2db5ae78c856",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "azurerm_resource_group",
+      "name": "appgrp",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "/subscriptions/1111c70d-3fb1-47fe-8e6e-b9cdaa8b050e/resourceGroups/app-grp",
+            "location": "centralindia",
+            "managed_by": "",
+            "name": "app-grp",
+            "tags": {},
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "identity": {
+            "name": "app-grp",
+            "subscription_id": "1111c70d-3fb1-47fe-8e6e-b9cdaa8b050e"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo1NDAwMDAwMDAwMDAwLCJkZWxldGUiOjU0MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjo1NDAwMDAwMDAwMDAwfX0="
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
+
